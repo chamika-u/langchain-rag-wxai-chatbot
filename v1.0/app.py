@@ -33,7 +33,7 @@ llm = LangChainInterface(
 #function to load and index the pdf document
 @st.cache_resource
 def load_pdf():
-    pdf_name = "UNI.pdf"
+    pdf_name = "#path-to-your-pdf"
     #load the pdf
     loader = PyPDFLoader(pdf_name)
     #split the pdf into chunks
@@ -52,7 +52,7 @@ chain=RetrievalQA.from_chain_type(
 )
 
 #setup the app title
-st.title("Ask UniExpert")
+st.title("Ask about PDF")
 
 #setup session state message variable to hold all the old message
 if "messages" not in st.session_state:
