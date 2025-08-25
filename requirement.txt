@@ -1,0 +1,27 @@
+# Web app interface
+streamlit==1.30.0
+
+# LangChain for LLM pipelines
+langchain==0.1.0
+
+# IBM watsonx.ai LangChain interface
+wxai-langchain==0.0.4
+
+# HuggingFace sentence transformers for embeddings
+sentence-transformers==2.2.2
+
+# PyTorch backend for embeddings and models
+torch==2.1.0
+
+# HuggingFace transformers for LLMs
+transformers==4.35.0
+
+# Tokenization library required for LLaMA/Granite models
+sentencepiece==0.1.99
+
+# FAISS for vector similarity search
+faiss-cpu==1.7.4
+
+# Standard scientific libraries
+numpy==1.26.0
+pandas==2.1.0
