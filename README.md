@@ -22,7 +22,7 @@ Welcome to your **AI-powered chatbot**! 🚀 This project uses **RAG (Retrieval-
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/chamika-u/langchain-rag-wxai-chatbot/
+git clone https://github.com/chamika-u/langchain-rag-wxai-chatbot
 ```
 ``` 
 cd langchain-rag-wxai-chatbot
